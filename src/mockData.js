@@ -16,7 +16,8 @@ const randomDate = () => {
       email: 'jane@example.com',
       password: 'password123',
       donatedItems: 15,
-      claimedItems: 5
+      claimedItems: 5,
+      imageUrl: "/images/jane.jpg"
     },
     {
       id: 2,
@@ -24,7 +25,8 @@ const randomDate = () => {
       email: 'john@example.com',
       password: 'password123',
       donatedItems: 8,
-      claimedItems: 12
+      claimedItems: 12,
+      imageUrl: "/images/john.jpg"
     },
     {
       id: 3,
@@ -32,7 +34,8 @@ const randomDate = () => {
       email: 'emily@example.com',
       password: 'password123',
       donatedItems: 22,
-      claimedItems: 3
+      claimedItems: 3,
+      imageUrl: "/images/emily.webp"
     },
     {
       id: 4,
@@ -40,7 +43,8 @@ const randomDate = () => {
       email: 'michael@example.com',
       password: 'password123',
       donatedItems: 6,
-      claimedItems: 8
+      claimedItems: 8,
+      imageUrl: "/images/michael.jpg"
     },
     {
       id: 5,
@@ -48,7 +52,8 @@ const randomDate = () => {
       email: 'sophia@example.com',
       password: 'password123',
       donatedItems: 19,
-      claimedItems: 7
+      claimedItems: 7,
+      imageUrl: "/images/sophia.jpg"
     }
   ];
   //C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/wooden_dining_table.webp
@@ -61,7 +66,7 @@ const randomDate = () => {
       category: 'Furniture',
       condition: 'Good',
       location: 'Downtown area',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/wooden_dining_table.webp',
+      imageUrl: '/images/wooden_dining_table.webp',
       donatedBy: 'jane_eco',
       status: 'available',
       createdAt: randomDate()
@@ -73,7 +78,7 @@ const randomDate = () => {
       category: 'Books',
       condition: 'Very Good',
       location: 'Northside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/set_of_childrens_books.webp',
+      imageUrl: '/images/set_of_childrens_books.webp',
       donatedBy: 'emily_sustainable',
       status: 'claimed',
       claimedBy: 'john_green',
@@ -86,7 +91,7 @@ const randomDate = () => {
       category: 'Electronics',
       condition: 'Good',
       location: 'Eastside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/sony_headphones.jpg',
+      imageUrl: '/images/sony_headphones.jpg',
       donatedBy: 'michael_reuse',
       status: 'available',
       createdAt: randomDate()
@@ -98,7 +103,7 @@ const randomDate = () => {
       category: 'Clothing',
       condition: 'Excellent',
       location: 'Westside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/womens_winter_coat.webp',
+      imageUrl: '/images/womens_winter_coat.webp',
       donatedBy: 'sophia_zerowaste',
       status: 'available',
       createdAt: randomDate()
@@ -110,7 +115,7 @@ const randomDate = () => {
       category: 'Home Goods',
       condition: 'Good',
       location: 'Central District',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/desk_lamp.jpg',
+      imageUrl: '/images/desk_lamp.jpg',
       donatedBy: 'john_green',
       status: 'claimed',
       claimedBy: 'emily_sustainable',
@@ -123,7 +128,7 @@ const randomDate = () => {
       category: 'Sports & Fitness',
       condition: 'Good',
       location: 'Southside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/yoga_mat.jpg',
+      imageUrl: '/images/yoga_mat.jpg',
       donatedBy: 'emily_sustainable',
       status: 'available',
       createdAt: randomDate()
@@ -135,7 +140,7 @@ const randomDate = () => {
       category: 'Furniture',
       condition: 'Fair',
       location: 'Downtown area',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/coffee_table.jpg',
+      imageUrl: '/images/coffee_table.jpg',
       donatedBy: 'jane_eco',
       status: 'claimed',
       claimedBy: 'sophia_zerowaste',
@@ -148,7 +153,7 @@ const randomDate = () => {
       category: 'Kitchen & Appliances',
       condition: 'Good',
       location: 'Northside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/kitchen_blender.avif',
+      imageUrl: '/images/kitchen_blender.avif',
       donatedBy: 'michael_reuse',
       status: 'available',
       createdAt: randomDate()
@@ -160,7 +165,7 @@ const randomDate = () => {
       category: 'Garden & Outdoor',
       condition: 'Very Good',
       location: 'Eastside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/gardening_tools_set.avif',
+      imageUrl: '/images/gardening_tools_set.avif',
       donatedBy: 'sophia_zerowaste',
       status: 'available',
       createdAt: randomDate()
@@ -172,7 +177,7 @@ const randomDate = () => {
       category: 'Kids & Toys',
       condition: 'Good',
       location: 'Westside',
-      imageUrl: 'C:/Users/Megha Prasad/Documents/sdt/swapit/public/images/childrens_bicycle.jpeg',
+      imageUrl: '/images/childrens_bicycle.jpeg',
       donatedBy: 'john_green',
       status: 'available',
       createdAt: randomDate()

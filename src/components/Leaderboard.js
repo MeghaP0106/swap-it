@@ -30,7 +30,7 @@ function Leaderboard({ users }) {
           <div key={user.id} className={`top-donor rank-${index + 1}`}>
             <div className="medal">{index === 0 ? '🥇' : index === 1 ? '🥈' : '🥉'}</div>
             <div className="user-avatar">
-              <img src="/api/placeholder/100/100" alt={user.username} />
+              <img src={user.imageUrl} alt={user.username} />
             </div>
             <h3>{user.username}</h3>
             <p className="donation-count">{user.donatedItems} donations</p>
@@ -55,7 +55,7 @@ function Leaderboard({ users }) {
               <tr key={user.id} className={user.rank <= 3 ? 'highlighted' : ''}>
                 <td>{user.rank}</td>
                 <td className="user-cell">
-                  <img src="/api/placeholder/30/30" alt={user.username} className="table-avatar" />
+                  <img src={user.imageUrl} alt={user.username} className="table-avatar" />
                   <span>{user.username}</span>
                 </td>
                 <td>{user.donatedItems}</td>

@@ -10,7 +10,7 @@ function About() {
       
       <div className="about-sdg">
         <img 
-          src="images/sdg-banner.png" 
+          src="/images/sdg_banner.png" 
           alt="SDG 12 Banner" 
           className="sdg-image" 
         />
